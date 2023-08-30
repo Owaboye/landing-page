@@ -1,0 +1,176 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+    color: #222;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    letter-spacing: 1px;
+    line-height: 1.5;
+}
+
+h1, h2, h3{
+    font-family: 'Roboto Slab', serif;
+    font-weight: 800;
+}
+
+.header-logo-text{
+    color:#f9faf8;
+    font-size: 24px;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.section{
+    padding: 80px 0;
+}
+
+/* Button */
+.btn{
+    border-radius: 5px;
+    padding: 10px 20px;
+    
+}
+
+.hero-btn{
+    background-color: #3882f6;
+    color: #e5e7eb;
+}
+
+/* Header and Hero section */
+header{
+    background-color: #1f2937;
+}
+
+header h1{
+    color: #f9faf8;
+    font-weight: extra-bold;
+    font-size: 48px;
+}
+
+header nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 72px;
+}
+
+nav ul{
+    display: flex;
+    gap: 20px;
+}
+
+header a, header p{
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+header p{
+    margin: 20px 0;
+}
+
+.hero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    padding: 80px 0;
+}
+
+.hero-text, .hero-img{
+    /* flex: 1; */
+    width: 45%;
+}
+
+.hero-img img{
+    width: 80%;
+    height: auto;
+}
+
+/* Info section  36px extra-bold #1f2937*/
+.title-box{
+    font-size: 16px;
+    color: #1f2937;
+    text-align: center;
+    width: 70%;
+    margin: auto;
+    padding-bottom: 40px;
+}
+
+.title-box h2{
+    padding-bottom: 15px;
+}
+
+.how-it-works{
+    display: flex;
+    gap: 30px;
+}
+
+.item-box{
+    flex: 1;
+    padding: 20px;
+    border: 1px solid #ddd;
+    box-shadow: 4px 8px 16px #737373;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.item-box h3{
+    padding: 20px 0;
+}
+
+.icon-box{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: 1px solid #3882f6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding: 40px;
+}
+
+.icon-box i{
+    font-size: 30px;
+
+}
+
+/* call-to-action */
+
+.call-to-action{
+    display: flex;
+    background-color: #3882f6;
+    color: #fffcf7;
+    justify-content: space-around;
+    padding: 40px 0;
+}
+
+.btn-cta{
+    border: 1px solid #e5e7eb;
+    color: #e5e7eb;
+}
+
+footer{
+    background-color: #1f2937;
+    text-align: center;
+    color: #e5e7eb;
+    padding: 40px 0;
+}
